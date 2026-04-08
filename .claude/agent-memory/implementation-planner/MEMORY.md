@@ -1,0 +1,1 @@
+- [WoMiWo project context](project_womiwo.md) -- Console UNO game in TS, greenfield, plan at docs/plans/FEAT-001-uno-console-game.md
