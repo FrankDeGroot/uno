@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "start": "tsx src/main.ts",
+    "web": "tsx src/web-main.ts",
     "test": "vitest run",
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit"

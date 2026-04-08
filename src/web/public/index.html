@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WoMiWo UNO</title>
+  <link rel="stylesheet" href="/public/style.css">
+</head>
+<body>
+  <header>
+    <h1>WoMiWo UNO</h1>
+  </header>
+
+  <main>
+    <section id="info">
+      <div id="computer-info">Computer: <span id="computer-count">?</span> cards</div>
+      <div id="top-card-area">
+        <div>Top card</div>
+        <div id="top-card" class="card">—</div>
+        <div>Active color: <span id="active-color-dot" class="color-dot"></span> <span id="active-color">—</span></div>
+      </div>
+    </section>
+
+    <section id="message-area">
+      <div id="message"></div>
+    </section>
+
+    <section id="hand-area">
+      <div class="section-label">Your hand</div>
+      <div id="hand"></div>
+    </section>
+
+    <section id="actions">
+      <button id="draw-btn" onclick="onDraw()">Draw Card</button>
+      <button id="pass-btn" onclick="onPass()" style="display:none">Pass</button>
+      <button id="new-game-btn" onclick="onNewGame()">New Game</button>
+    </section>
+
+    <section id="color-picker" style="display:none">
+      <div class="section-label">Choose a color</div>
+      <div id="color-buttons">
+        <button class="card card-red" onclick="onColorChosen('red')">Red</button>
+        <button class="card card-yellow" onclick="onColorChosen('yellow')">Yellow</button>
+        <button class="card card-green" onclick="onColorChosen('green')">Green</button>
+        <button class="card card-blue" onclick="onColorChosen('blue')">Blue</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="/public/game.js"></script>
+</body>
+</html>
