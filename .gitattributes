@@ -1,0 +1,6 @@
+# Default: normalize line endings to LF in the repo
+* text=auto eol=lf
+
+# Shell scripts and Dockerfiles must always use LF
+*.sh text eol=lf
+Dockerfile text eol=lf
