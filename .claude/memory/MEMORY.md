@@ -1,0 +1,1 @@
+- [TypeScript Duck Typing Preference](feedback_typescript_typing.md) — prefer structural typing over nominal typing
